@@ -8550,6 +8550,7 @@
 {
 "classname" "monster_zombie"
 "origin" "480 -568 -8"
+"angle" "180"
 }
 // entity 7
 {
@@ -9814,4 +9815,131 @@
 ( 432 -1120 256 ) ( 448 -1136 256 ) ( 448 -1136 384 ) 128_grey_3 [ -0.7071067811865476 0.7071067811865476 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 448 -1120 304 ) ( 448 -1120 305 ) ( 448 -1119 304 ) 128_grey_3 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
+}
+// entity 85
+{
+"classname" "trigger_secret"
+"message" "Mission Report: R.I.P. Inc Infiltration"
+"sounds" "2"
+// brush 0
+{
+( -336 -64 88 ) ( -336 64 16 ) ( -336 64 88 ) trigger [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -320 -64 88 ) ( -336 -64 16 ) ( -336 -64 88 ) trigger [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -320 64 16 ) ( -336 -64 16 ) ( -320 -64 16 ) trigger [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -320 64 144 ) ( -336 -64 144 ) ( -336 64 144 ) trigger [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -320 64 88 ) ( -336 64 16 ) ( -320 64 16 ) trigger [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -320 64 88 ) ( -320 -64 16 ) ( -320 -64 88 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 86
+{
+"classname" "trigger_secret"
+"message" "Your mission: Exterminate all remaining life."
+"sounds" "2"
+// brush 0
+{
+( -48 -64 88 ) ( -48 64 16 ) ( -48 64 88 ) trigger [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -32 -64 88 ) ( -48 -64 16 ) ( -48 -64 88 ) trigger [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -32 64 16 ) ( -48 -64 16 ) ( -32 -64 16 ) trigger [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -32 64 144 ) ( -48 -64 144 ) ( -48 64 144 ) trigger [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -32 64 88 ) ( -48 64 16 ) ( -32 64 16 ) trigger [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -32 64 88 ) ( -32 -64 16 ) ( -32 -64 88 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 87
+{
+"classname" "monster_zombie"
+"origin" "880 -464 40"
+}
+// entity 88
+{
+"classname" "monster_zombie"
+"origin" "480 -640 -8"
+"angle" "180"
+}
+// entity 89
+{
+"classname" "monster_zombie"
+"origin" "480 -704 -8"
+"angle" "180"
+}
+// entity 90
+{
+"classname" "monster_zombie"
+"origin" "480 -760 -8"
+"angle" "180"
+}
+// entity 91
+{
+"classname" "monster_zombie"
+"origin" "344 -576 -8"
+"angle" "0"
+}
+// entity 92
+{
+"classname" "monster_zombie"
+"origin" "344 -632 -8"
+"angle" "0"
+}
+// entity 93
+{
+"classname" "monster_zombie"
+"origin" "344 -696 -8"
+"angle" "0"
+}
+// entity 94
+{
+"classname" "monster_zombie"
+"origin" "344 -768 -8"
+"angle" "0"
+}
+// entity 95
+{
+"classname" "item_artifact_super_damage"
+"origin" "416 -560 144"
+}
+// entity 96
+{
+"classname" "item_armor2"
+"origin" "416 -1384 128"
+}
+// entity 97
+{
+"classname" "item_shells"
+"origin" "360 -1000 16"
+}
+// entity 98
+{
+"classname" "item_shells"
+"origin" "448 -1000 16"
+}
+// entity 99
+{
+"classname" "item_health"
+"origin" "448 -1336 16"
+}
+// entity 100
+{
+"classname" "item_health"
+"origin" "352 -1336 16"
+}
+// entity 101
+{
+"classname" "item_health"
+"origin" "400 -776 160"
+}
+// entity 102
+{
+"classname" "item_shells"
+"origin" "752 -1144 -32"
+}
+// entity 103
+{
+"classname" "item_health"
+"origin" "784 -1184 -32"
+}
+// entity 104
+{
+"classname" "item_shells"
+"origin" "736 -1224 -32"
 }

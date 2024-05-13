@@ -11590,3 +11590,8 @@
 "classname" "item_shells"
 "origin" "1872 504 16"
 }
+// entity 342
+{
+"classname" "light"
+"origin" "968 8 1032"
+}

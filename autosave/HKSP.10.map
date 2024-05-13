@@ -11023,3 +11023,21 @@
 ( 3808 -408 144 ) ( 3808 -456 72 ) ( 3808 -456 144 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
+// entity 273
+{
+"classname" "monster_demon1"
+"origin" "3968 16 72"
+"angle" "180"
+}
+// entity 274
+{
+"classname" "monster_demon1"
+"origin" "4256 -312 -40"
+"angle" "180"
+}
+// entity 275
+{
+"classname" "monster_demon1"
+"origin" "3736 352 -40"
+"angle" "180"
+}

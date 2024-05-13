@@ -11308,3 +11308,18 @@
 "classname" "monster_zombie"
 "origin" "688 -1152 40"
 }
+// entity 312
+{
+"classname" "monster_zombie"
+"origin" "1440 480 200"
+}
+// entity 313
+{
+"classname" "item_armor2"
+"origin" "1400 544 176"
+}
+// entity 314
+{
+"classname" "item_shells"
+"origin" "1408 344 176"
+}

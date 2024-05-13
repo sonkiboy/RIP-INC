@@ -11265,3 +11265,46 @@
 "classname" "item_artifact_envirosuit"
 "origin" "1360 -288 40"
 }
+// entity 304
+{
+"classname" "monster_zombie"
+"origin" "904 -1072 -8"
+}
+// entity 305
+{
+"classname" "monster_zombie"
+"origin" "904 -1152 -8"
+}
+// entity 306
+{
+"classname" "monster_zombie"
+"origin" "1072 -1232 -8"
+"angle" "180"
+}
+// entity 307
+{
+"classname" "monster_zombie"
+"origin" "1072 -1072 -8"
+"angle" "180"
+}
+// entity 308
+{
+"classname" "monster_zombie"
+"origin" "416 -1312 152"
+"angle" "90"
+}
+// entity 309
+{
+"classname" "monster_zombie"
+"origin" "272 -1192 40"
+}
+// entity 310
+{
+"classname" "monster_zombie"
+"origin" "416 -1016 152"
+}
+// entity 311
+{
+"classname" "monster_zombie"
+"origin" "688 -1152 40"
+}

@@ -3857,7 +3857,7 @@
 // brush 426
 {
 ( 544 864 176 ) ( 544 864 177 ) ( 544 863 176 ) 64_grey_3 [ 0 1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
-( 576 784 192 ) ( 576 784 193 ) ( 577 784 192 ) 64_grey_3 [ -1.0000000000000002 0 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
+( 576 792 192 ) ( 576 792 193 ) ( 577 792 192 ) 64_grey_3 [ -1.0000000000000002 0 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 ( 544 864 176 ) ( 544 863 176 ) ( 545 864 176 ) 64_grey_3 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 ( 576 784 224 ) ( 577 784 224 ) ( 576 783 224 ) 64_grey_3 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 ( 544 864 176 ) ( 545 864 176 ) ( 544 864 177 ) 64_grey_3 [ 1.0000000000000002 0 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
@@ -3986,7 +3986,7 @@
 ( 528 656 192 ) ( 527 656 192 ) ( 528 656 193 ) 64_grey_3 [ -1.0000000000000002 0 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 ( 608 688 176 ) ( 607 688 176 ) ( 608 687 176 ) 64_grey_3 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 ( 528 656 224 ) ( 528 655 224 ) ( 527 656 224 ) 64_grey_3 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
-( 608 720 176 ) ( 608 720 177 ) ( 607 720 176 ) 64_grey_3 [ 1.0000000000000002 0 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
+( 608 712 176 ) ( 608 712 177 ) ( 607 712 176 ) 64_grey_3 [ 1.0000000000000002 0 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 ( 592 688 176 ) ( 592 687 176 ) ( 592 688 177 ) 64_grey_3 [ 0 -1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 }
 // brush 441
@@ -8460,6 +8460,15 @@
 ( 464 -1264 128 ) ( 368 -1264 112 ) ( 464 -1264 112 ) 64_grey_1 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 464 -1264 128 ) ( 464 -1360 112 ) ( 464 -1360 128 ) 64_grey_1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
+// brush 934
+{
+( 784 784 624 ) ( 784 896 512 ) ( 784 896 624 ) Glass [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 792 784 624 ) ( 784 784 512 ) ( 784 784 624 ) Glass [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 792 896 512 ) ( 784 784 512 ) ( 792 784 512 ) Glass [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 792 896 688 ) ( 784 784 688 ) ( 784 896 688 ) Glass [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 792 896 624 ) ( 784 896 512 ) ( 792 896 512 ) Glass [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 792 896 624 ) ( 792 784 512 ) ( 792 784 624 ) Glass [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
 }
 // entity 1
 {
@@ -10168,4 +10177,181 @@
 "classname" "monster_zombie"
 "origin" "1512 -536 200"
 "angle" "130"
+}
+// entity 147
+{
+"classname" "monster_demon1"
+"origin" "696 840 536"
+}
+// entity 148
+{
+"classname" "item_health"
+"origin" "496 1104 512"
+}
+// entity 149
+{
+"classname" "item_shells"
+"origin" "552 1104 512"
+}
+// entity 150
+{
+"classname" "item_shells"
+"origin" "584 536 512"
+}
+// entity 151
+{
+"classname" "item_cells"
+"origin" "496 552 512"
+}
+// entity 152
+{
+"classname" "item_armor2"
+"origin" "1088 968 512"
+}
+// entity 153
+{
+"classname" "item_rockets"
+"origin" "1760 928 512"
+}
+// entity 154
+{
+"classname" "item_health"
+"origin" "1344 600 512"
+}
+// entity 155
+{
+"classname" "item_cells"
+"origin" "1584 600 512"
+}
+// entity 156
+{
+"classname" "item_shells"
+"origin" "1416 1032 512"
+}
+// entity 157
+{
+"classname" "item_health"
+"origin" "1512 848 448"
+}
+// entity 158
+{
+"classname" "item_health"
+"origin" "1512 784 448"
+}
+// entity 159
+{
+"classname" "item_shells"
+"origin" "656 680 512"
+}
+// entity 160
+{
+"classname" "item_rockets"
+"origin" "640 736 512"
+}
+// entity 161
+{
+"classname" "item_health"
+"origin" "1080 688 512"
+}
+// entity 162
+{
+"classname" "monster_dog"
+"origin" "1096 856 536"
+"angle" "180"
+}
+// entity 163
+{
+"classname" "monster_dog"
+"origin" "1024 824 536"
+"angle" "180"
+}
+// entity 164
+{
+"classname" "monster_dog"
+"origin" "680 968 536"
+}
+// entity 165
+{
+"classname" "monster_zombie"
+"origin" "880 1440 456"
+}
+// entity 166
+{
+"classname" "monster_zombie"
+"origin" "816 1328 216"
+}
+// entity 167
+{
+"classname" "monster_zombie"
+"origin" "848 1400 216"
+}
+// entity 168
+{
+"classname" "monster_zombie"
+"origin" "920 1408 216"
+}
+// entity 169
+{
+"classname" "misc_explobox2"
+"origin" "864 1336 192"
+}
+// entity 170
+{
+"classname" "item_cells"
+"origin" "784 1424 192"
+}
+// entity 171
+{
+"classname" "item_cells"
+"origin" "872 1424 192"
+}
+// entity 172
+{
+"classname" "item_cells"
+"origin" "784 1360 192"
+}
+// entity 173
+{
+"classname" "item_health"
+"origin" "856 1416 272"
+}
+// entity 174
+{
+"classname" "item_shells"
+"origin" "864 1200 352"
+}
+// entity 175
+{
+"classname" "item_armor1"
+"origin" "880 928 192"
+}
+// entity 176
+{
+"classname" "monster_dog"
+"origin" "544 1048 216"
+}
+// entity 177
+{
+"classname" "monster_dog"
+"origin" "544 1112 216"
+}
+// entity 178
+{
+"classname" "monster_dog"
+"origin" "544 752 216"
+}
+// entity 179
+{
+"classname" "monster_dog"
+"origin" "656 704 216"
+}
+// entity 180
+{
+"classname" "item_rockets"
+"origin" "360 832 256"
+}
+// entity 181
+{
+"classname" "item_rockets"
+"origin" "360 960 256"
 }
